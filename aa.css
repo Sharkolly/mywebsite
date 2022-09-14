@@ -1,0 +1,76 @@
+body{
+    width: 80%;
+    margin: 70px auto;
+    background-color: black;
+    color: white;
+}
+/*
+div.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+p{
+    font-size: 18px;
+}
+
+svg{
+    width: 40px;
+    margin-top: 7px;
+    
+}
+path{
+    fill: white;
+}
+
+*/
+
+
+details{
+    font-size: 13px;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    cursor: pointer;
+    color: white;
+
+
+
+}
+ul{
+   
+    position: fixed;
+    top: -2%;
+    right: 0;
+    background-color: blue;
+    list-style: none;
+    height: 100vh;
+    padding-top: 40px;
+    z-index: -1;
+    width: 50%;
+
+}
+li{
+
+    color: white;
+    padding: 2em .5em;
+    width: 300px;
+    text-align: left;
+}
+summary{
+    font-size: 30px;
+
+    
+}
